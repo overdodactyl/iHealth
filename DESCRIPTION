@@ -1,0 +1,15 @@
+Package: iHealth
+Type: Package
+Title: Import and summarize Apple Health data
+Version: 0.1.0
+Author: Pat Johnson
+Maintainer: Pat Johnson <Johnson.Pat@mayo.edu>
+Description: Convert Apple Health exported data into a usable data frame 
+    and generate quick summaries. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Imports: 
+    magrittr,
+    xml2
