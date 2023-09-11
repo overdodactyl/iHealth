@@ -137,7 +137,6 @@ ihealth_distance <- function(data, start = NA, end = NA, method = c("max", "dist
   message(paste0("Distance Total: ", round(distance_bike + distance_foot, 2)))
 
   list(
-    distance_steps = distance_steps,
     distance_foot = distance_wr,
     distance_bike = distance_bike,
     distance_steps = distance_steps

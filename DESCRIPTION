@@ -12,4 +12,5 @@ LazyData: true
 RoxygenNote: 7.1.2
 Imports: 
     magrittr,
+    purrr,
     xml2
